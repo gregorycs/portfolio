@@ -1,0 +1,111 @@
+{
+  "Header.Item1": "Acerca de mi",
+  "Header.Item2": "Experiencia",
+  "Header.Item3": "Proyectos",
+  "Header.Item4": "Contacto",
+  "Header.cvBtn": "Curriculum",
+  "Header.cvName": "CV_Gregorio_Chiriguaya_Es.pdf",
+
+  "Banner.Pretitle": "Hola! Mi nombre es",
+  "Banner.Description": "Desarrollador web con <span class='underline'>10 años de experiencia</span> en el ámbito laboral, perfilado al <span class='underline'>desarrollo back-end</span>. Me especializo en tecnologías como <span class='underline'>php</span> con sus distintos frameworks <span class='underline'>(Laravel y Codeigniter)</span>, además del lenguaje <span class='underline'>C#</span> y su framework <span class='underline'>Asp.net Core</span>.",
+  "Banner.ActionBtn": "Contáctame",
+  "Banner.Profession": "Desarrollador web",
+
+
+  "AboutMe.Title": "Acerca de mi",
+  "AboutMe.Paragraphs": [
+    "En estos años de experiencia he estado en cargos como: analista de sistemas, backend developer y lider técnico. Me gusta mucho usar el desarrollo web para la resolución de problemas.",
+    "Entre mis capacidades están la creación de apis, creación de páginas y aplicaciones web, creación de procesos en background(jobs, queues) e implementar mejoras dentro de los procesos de los sistemas.",
+    "Entra las tecnologías en las que me he capacitado y he trabajado están:"
+  ],
+
+  "Experience.Title": "Experiencia",
+  "Experience.Jobs": [
+    {
+      "Tab": "Grupo KFC",
+      "Title": "Desarrollador web",
+      "Date": "Mayo 2022 - Agosto 2024",
+      "Description": [
+        "Nuevas funcionalidades como asignación de motorizados y gestión de pedidos Pickup(Pide y recoge ), entre otros, dentro del sistema POS realizado con php, jquery, javascript y css",
+        "Modificaciones y nuevos procesos del nuevo sistemas Pos hecho con C# en Asp.net Core y Angular",
+        "Creación de apis en laravel para integraciones con plataforma de delivery (PedidosYA, Justo, Uber)",
+        "Creación de funciones y procedimientos almacenados en sql server para el procesamiento de la información receptada",
+        "Creación de jobs en laravel para ejecución de procesos pesados en segundo plano (peticiones a distintas api y envios de impresión)",
+        "Modificaciones en aplicación web angular hecha para la gestión de turnos de los pedidos entrantes (Adaptar página para que se visualice de manera vertical los turnos y correcciones en cambios de estados con lector QR)"
+      ]
+    },
+    {
+      "Tab": "CRECOS CORP",
+      "Title": "Desarrollador web",
+      "Date": "Agosto 2022 - Marzo 2023",
+      "Description": [
+        "Creación de aplicación web para consultas de saldos para los clientes realizada en laravel",
+        "Creación de páginas web B2B para consulta de precios de productos mediante la plataforma de comercio electrónico Vtex",
+        "Mantenimiento y correcciones a distintas aplicaciones web en laravel (Actualizaciones de precios y ofertas, Consultas y seguimientos a clientes) utilizadas por el personal administrativo"
+      ]
+    },
+    {
+      "Tab": "FUNIBER",
+      "Title": "Programador semi-senior",
+      "Date": "Agosto 2019 - Noviembre 2021",
+      "Description": [
+        "Mantenimiento y creación de métodos en los sistemas de gestión educativo (Framework propio de la empresa hecha en php)",
+        "Creación de cronjobs en laravel para procesos en background para procesamiento y cálculos de notas",
+        "Creación de pruebas unitarias (TDD) de los nuevos métodos creados (PhpUnit)",
+        "Realización de querys para salida de reportes (notas, materias por profesor, alumnos) en mysql",
+        "Análisis técnico para saber como llevar a cabo los nuevos requerimientos dentro del sistema de gestión educativo",
+        "Capacitación del sistema de gestión educativo a los nuevos integrantes del equipo"
+      ]
+    },
+    {
+      "Tab": "Orbis Corp",
+      "Title": "Programador junior",
+      "Date": "Agosto 2014 - Noviembre 2018",
+      "Description": [
+        "Soporte y desarrollo (Revisión y procesamiento de imágenes del medidor, mapa de coordenadas de la toma de lectura e impresiones.) en las aplicaciones web de lecto-facturacion realizadas en CodeIgniter",
+        "Creación de proceso batch para obtener datos de facturación de planillas realizado con C# en .net core",
+        "Creación de funciones, trigger y procedimentos almacenados en oracle para cálculos de consumo e información de toma de lecturas"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Mis proyectos",
+  "FeatureProjects.Label": "Proyecto Destacado",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Task manager",
+      "Description": "Aplicacion web para gestion de tareas personales, permite la creación, edición y eliminación de tareas. Ver proyecto en línea: <a href='http://taskmanagerpremium.somee.com/' class='underline'>http://taskmanagerpremium.somee.com/</a>",
+      "imgs": [
+        "assets/images/taskmanager/task1.png",
+        "assets/images/taskmanager/task2.png",
+        "assets/images/taskmanager/task3.png"
+      ],
+      "Technologies": ["C#", "Asp.net Core", "Bootstrap"]
+    },
+
+    {
+      "Title": "Api person",
+      "Description": "Api para ingresar, consultar, editar y eliminar información sobre las personas, incluye swagger para documentación. Ver proyecto en línea: <a href='http://www.apipersons.somee.com/swagger/' class='underline'>http://www.apipersons.somee.com/swagger/</a>",
+      "imgs": [
+        "assets/images/apiperson/apiperson1.png",
+        "assets/images/apiperson/apiperson2.png"
+      ],
+      "Technologies": ["C#", "Asp.net Core", "Swagger"]
+    },
+
+    {
+      "Title": "Portfolio",
+      "Description": "Página web personal, donde se encuentra mi información y mi experiencia en el desarrollo web",
+      "imgs": [
+        "assets/images/portfolio/portfolio1.png",
+        "assets/images/portfolio/portfolio2.png"
+      ],
+      "Technologies": ["Angular", "Sass"]
+    }
+  ],
+
+  "Contact.Pretitle": "Contacto",
+  "Contact.Title": "¡Solicítame!",
+  "Contact.Content": "Estaré gustoso en recibir tu mensaje si quieres conversar acerca de nuevas oportunidades laborales. Te responderé tan pronto como pueda.",
+  "Contact.Btn": "Contáctame"
+}

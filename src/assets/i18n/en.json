@@ -1,0 +1,110 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_Gregorio_Chiriguaya_Es.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "Web developer with <span class='underline'>10 years of experience</span> in the workplace, focused on <span class='underline'>back-end development</span>. I specialize in technologies such as <span class='underline'>PHP</span> with its different frameworks <span class='underline'>(Laravel and Codeigniter)</span>, in addition to the <span class='underline'>C#</span> language and its <span class='underline'>Asp.net Core framework</span>.",
+  "Banner.ActionBtn": "Contact me",
+  "Banner.Profession": "Web Developer",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "In these years of experience I have been in positions such as: systems analyst, backend developer and technical leader. I really like using web development for problem solving.",
+    "Among my capabilities are the creation of APIs, creation of web pages and applications, creation of background processes (jobs, queues) and implementing improvements within systems processes.",
+    "Among the technologies in which I have trained and worked are:"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Grupo KFC",
+      "Title": "Web Developer",
+      "Date": "May 2022 - August 2024",
+      "Description": [
+        "New functionalities such as motorized allocation and Pickup order management, among others, within the POS system made with php, jquery, javascript and css",
+        "Modifications and new processes of the new Pos system made with C# in Asp.net Core and Angular",
+        "Creation of APIs in Laravel for integrations with delivery platforms (PedidosYA, Justo, Uber)",
+        "Creation of functions and stored procedures in SQL Server for processing the received information",
+        "Creation of jobs in Laravel to execute heavy processes in the background (requests to different APIs and print submissions)",
+        "Modifications in the angular web application made for the management of shifts of incoming orders (Adapt page so that the shifts are displayed vertically and corrections in status changes with QR reader)"
+      ]
+    },
+    {
+      "Tab": "CRECOS CORP",
+      "Title": "Web Developer",
+      "Date": "August 2022 - March 2023",
+      "Description": [
+        "Creation of web application for balance inquiries for clients carried out in Laravel",
+        "Creation of B2B web pages to consult product prices using the Vtex e-commerce platform",
+        "Maintenance and corrections to different web applications in Laravel (price and offer updates, customer queries and follow-ups) used by administrative staff"
+      ]
+    },
+    {
+      "Tab": "FUNIBER",
+      "Title": "Programmer semi-senior",
+      "Date": "August 2019 - November 2021",
+      "Description": [
+        "Maintenance and creation of methods in educational management systems (company's own framework made in PHP)",
+        "Creation of cronjobs in Laravel for background processes for note processing and calculations",
+        "Creation of unit tests (TDD) of the new methods created (PhpUnit)",
+        "Realization of queries to output reports (grades, subjects by teacher, students) in mysql",
+        "Technical analysis to know how to carry out the new requirements within the educational management system",
+        "Educational management system training for new team members"
+      ]
+    },
+    {
+      "Tab": "Orbis Corp",
+      "Title": "Programmer junior",
+      "Date": "August 2014 - November 2018",
+      "Description": [
+        "Support and development (Review and processing of meter images, map of reading taking coordinates and impressions.) in reading-billing web applications made in CodeIgniter",
+        "Creation of a batch process to obtain billing data from payrolls done with C# in .net core",
+        "Creation of functions, triggers and stored procedures in Oracle for consumption calculations and reading taking information"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Highlighted Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Task manager",
+      "Description": "Web application for managing personal tasks, allows the creation, editing and deletion of tasks. View project online: <a href='http://taskmanagerpremium.somee.com/' class='underline'>http://taskmanagerpremium.somee.com/</a>",
+      "imgs": [
+        "assets/images/taskmanager/task1.png",
+        "assets/images/taskmanager/task2.png",
+        "assets/images/taskmanager/task3.png"
+      ],
+      "Technologies": ["C#", "Asp.net Core", "Bootstrap"]
+    },
+
+    {
+      "Title": "Api person",
+      "Description": "API to enter, consult, edit and delete information about people, includes swagger for documentation. View project online: <a href='http://www.apipersons.somee.com/swagger/' class='underline'>http://www.apipersons.somee.com/swagger/</a>",
+      "imgs": [
+        "assets/images/apiperson/apiperson1.png",
+        "assets/images/apiperson/apiperson2.png"
+      ],
+      "Technologies": ["C#", "Asp.net Core", "Swagger"]
+    },
+
+    {
+      "Title": "Portfolio",
+      "Description": "Personal website, where you can find my information and my experience in web development",
+      "imgs": [
+        "assets/images/portfolio/portfolio1.png",
+        "assets/images/portfolio/portfolio2.png"
+      ],
+      "Technologies": ["Angular", "Sass"]
+    }
+  ],
+
+  "Contact.Pretitle": "Contact",
+  "Contact.Title": "Request me!",
+  "Contact.Content": "I will be happy to receive your message if you want to talk about new job opportunities. I will reply to you as soon as I can.",
+  "Contact.Btn": "Contact Me"
+}
